@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+/* Ajuste do corpo(fundo) geral  */
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-width: 100vh;
+  background: #333;
+}
+/* Ajuste corpo(fundo) barra footer */
+footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+}
